@@ -1,0 +1,177 @@
+/***** BASE STYLES *****/
+
+body {
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.containter,
+.top-section {
+    margin:0 auto;
+    width:1200px;
+}
+
+main {
+    width:1200px;
+}
+
+.group-one,
+.group-two,
+.group-three {
+    float:left;
+    width:399px;
+}
+
+footer,
+.top-section {
+    clear:both;
+    margin-left:160px;
+}
+
+/***** HEADER, NAV *****/
+
+.container {
+    padding-bottom:80px;
+}
+
+h1 {
+    font-size:30px;
+    float:left;
+    line-height:23px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-left:150px;
+}
+
+h1 span {
+    color:#77a466;
+    margin:25px 10px;
+}
+
+nav ul li a,
+.title h2 {
+    color:#77a466;
+    line-height:23px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+nav {
+    float:right;
+    padding: 10px;
+    margin-right:160px;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav ul li a {
+    font-size:14px;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+/***** ABOUT SECTION, IMAGE ******/
+
+.hero-image {
+    border-top:4px solid #77a466;
+    border-bottom:4px solid #77a466;
+    line-height:0px;
+}
+
+.title h2 {
+    padding:10px 0;
+    font-size:18px;
+}
+
+.title p {
+    font-size:16px;
+    line-height:25px;
+    padding-bottom:20px;
+}
+
+/***** MENU *****/
+
+.group-one h3,
+.group-two h3,
+.group-three h3 {
+    font-size:12px;
+    line-height:10px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin:30px 0 0 0;
+}
+
+.group-one {
+    border-right:1px solid #dedbdc;
+    padding-bottom:28px;
+    width:350px;
+}
+
+.group-one ul {
+    color:#77a466;
+    font-size:16px;
+    line-height:18px;
+    display:unset;
+    list-style:none;
+    text-transform:capitalize;
+}
+
+.group-one ul li {
+    line-height:35px;
+}
+
+.group-one,
+.group-two,
+.group-three {
+    border-top:1px solid #dedbdc;
+    border-bottom:1px solid #dedbdc;
+}
+
+/***** REVIEWS *****/
+
+.group-two {
+    border-right:1px solid #dedbdc;
+    padding:0 0 15px 25px;
+}
+
+.group-two p {
+    font-size:16px;
+    line-height:21px;
+    text-align:left;
+}
+
+/***** CONTACT US *****/
+
+.group-three {
+    padding:0 0 56px 25px;
+}
+
+.group-three ul {
+    font-size: 16px;
+    line-height:24px;
+    display:unset;
+    list-style:none;
+}
+
+/***** FOOTER *****/
+
+footer h2 {
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    line-height:23px;
+    margin-left:60px;
+    padding-top:20px;
+    text-transform:uppercase;
+}
+
+footer h2 span {
+    color:#77a466;
+    font-family: 'Galada', cursive;
+    text-transform:lowercase;
+    font-weight:normal;
+}
